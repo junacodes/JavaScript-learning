@@ -33,7 +33,7 @@ function arr(){
     console.log(l);
 }
 arr();
-
+// Q3
 function Person(){
     this.name = "John";
     this.age = 23;
