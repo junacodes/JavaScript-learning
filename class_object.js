@@ -37,9 +37,10 @@ class EBook extends Book{
         super(title, author, pages);
         this.file_size = file_size;
     }
-    getEBookDetails(){
-        console.log(`${this.getTitleBook()} , File size: ${this.file_size}`)
+    getTitleBook(){
+        console.log(`title: ${this.title} ,author: ${this.author}, page:${this.pages} File size: ${this.file_size}`)
     }
-}
+}const book = new Book ("Alice's Adventures in Wonderland", "Lewis Carroll", 352)
 const ebook = new EBook("Alice's Adventures in Wonderland", "Lewis Carroll", 352, 2)
-ebook.getEBookDetails()
+console.log(book.getTitleBook())
+console.log(ebook.getTitleBook()); 
