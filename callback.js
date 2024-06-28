@@ -1,4 +1,4 @@
-function operation(a,  b , add , subtract , mul , divied){
+function operation(a,  b , add , subtract , mul ){
     add(a, b),
     subtract(a, b),
     mul(a,b)
