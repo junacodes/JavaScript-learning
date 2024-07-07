@@ -31,16 +31,16 @@ console.log(addResult);
 // //     let l = s.slice(-1);
 // //     console.log(f)
 // //     console.log(l);
-// // }
+// //
 // // arr();
 // Q3
-function Person(){
-    this.name = "John";
-    this.age = 23;
-    this.place = "New York";
+function Person( name, age , place){
+    this.name = name;
+    this.age = age;
+    this.place = place;
 
 }
-const person = new Person()
+const person = new Person("john", 23 , "Kathmandu")
 console.log(person.name);
 console.log(person.age);
 console.log(person.place);
@@ -77,5 +77,5 @@ book.getBookTitle();
     
 
 
- 
+  
 
