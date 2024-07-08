@@ -143,6 +143,7 @@ setAge(age){
 
 }
 
+
 const person1 = new Person("john" , 35);
 console.log(person1.getName());
 console.log(person1.getAge());
