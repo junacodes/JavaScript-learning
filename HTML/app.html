@@ -4,18 +4,89 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name = "author" content="Juna shrestha">
-    <link rel="stylesheet" href="./style/index.css">
-    <title>Lesson html </title>
+    <link rel="stylesheet" href="../assets/./style/index.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+
+    <title>Portfolio</title> 
 </head>
 <body>
-    <!-- <h1>Hello world</h1>
-    <h2>Hello world</h2>
-    <h3>Hello world</h3>
-    <h4>Hello world</h4>
-    <h5>Hello world</h5>
-    <h6>Hello world</h6> -->
-    <img src="./images/COW.jpg" alt=""   >
-<!-- <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi ipsa repudiandae eius autem nulla quisquam voluptatem magni illum cumque, aliquam, recusandae ad cupiditate repellat reiciendis. Illum ipsum maiores commodi assumenda.</p> -->
-    <p>The cow is a domestic animal that serves people in a variety of ways. The most essential aspect of cows is that they are one of the key milk producers. Cow's milk is one of the most popular dairy products, and it contains a significant amount of protein. It can also be used to make a variety of other dairy products, such as cheese butter, ghee, curd, and so on.</p>
-</body>
+    <header>
+       
+        <h1>Juna Shrestha's portfolios</h1>
+        <nav>
+        <img src="https://i.pinimg.com/236x/28/2f/e0/282fe0f3c2acbd0c6b8ae2f65e14b884.jpg" alt="snowball bunny">
+
+            <ul>
+                <li><a href="#about" target="_blank">About Me</a></li>
+                <li><a href="#projcet">Project</a></li>
+                <li><a href="#contact">Contact</a></li>
+
+
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="about">
+        <h2>About me</h2>
+        <p>Hello!! I'm Juna Shrestha, I'm a web developer And I love creating new things. Lorem ipsum dolor sit 
+            amet consectetur adipisicing elit. Aliquam vero reiciendis officiis. Consectetur est dolorem 
+            soluta? Autem praesentium quo ab laborum temporibus? Adipisci rerum soluta reiciendis expedita harum culpa dolore. Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime tenetur in adipisci totam temporibus, ab aspernatur exercitationem sed assumenda, nemo esse fuga voluptas animi! Minima similique pariatur quas ipsam odit. </p>
+
+      
+    </section>    
+
+    <section id="projcet">
+        <table>
+            <caption>My project
+            </caption>
+            <thead>
+            <tr>
+                <th>Project Name</th>
+                <th>Description</th>
+                <th>Link</th>
+
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Github project</td>
+                <td>README</td>
+                <td><a href="https://github.com">Github</a></td>
+            </tr>
+
+            <tfoot>
+                <tr>
+                    <td>Codecademy</td>
+                    <td>File System</td>
+                    <td><a href="https://codecademy.com">codecademy</a></td>
+                </tr>
+            </tfoot>
+        </tbody>
+        </table>
+        
+    </section>  
+    <section id="contact">
+        <h2>Contact</h2>
+        <form action="" method="post">
+            <label for="name">Name:</label>
+            <input type="text" name="name " id="name" required>
+        
+            <label for="">Email:</label>
+            <input type="email" name="email" id="email" required>
+            <label for="message">Message:</label>
+           <textarea name="message" id="message" required></textarea>
+           <button>Submit</button>
+        </form>
+    </section>  
+    <footer>
+        <p>2024 Juna Shrestha. All rights reserved.</p>
+        <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-facebook"></a>
+
+
+    </footer>
+
+    <!-- <a href="#myport">go to my portfolio</a> -->
+    
+  </body>
 </html>
