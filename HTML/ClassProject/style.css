@@ -3,17 +3,99 @@
     padding: 0;
     background-color: wheat;
     box-sizing: border-box;
+    /* roboto, poppins  */
 }
 
 
-div{
-    background-color: aqua;
+
+#portfolio{
+    background: #c15757;
 }
 
-h1{
-color: aliceblue;
+#Portfolio_class{
+color: rgb(17, 101, 175);
 text-align: center;
 font-size: 40px;
 font-weight: 100;
-
  }
+ #portfolio2 {
+    background-color: darkmagenta;
+ }
+
+ .Personal_class2{
+    color: black;
+    text-align: center;
+ }
+
+p{
+    color: rgb(15, 15, 15);
+    text-align: center;
+}
+
+#grouping-selector, #lorem1 , #lorem2{
+    background-color: #244;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #fff;
+}
+#facebook:link{
+    color: #c15757;
+    
+}
+#insta:visited{
+    color: aqua;
+}
+
+
+#whatsapp:hover{
+    color: rgb(127, 201, 48);
+}
+
+#linkedin:active{
+    color: burlywood;
+}
+#submit{
+    background-color: blue;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    border-radius: 5px;
+    border: none;
+
+}
+
+#submit:hover{
+    background-color: #c15757;
+    cursor: progress;
+    color: #fff
+    ;
+}
+
+
+#skill::first-letter{
+    text-transform: uppercase;
+    color: rgb(249, 17, 17);
+    font-size: 70px;
+}
+
+#skill::first-line{
+    font-size: 100px;
+}
+
+#hello::before{
+    content: url('https://images.unsplash.com/photo-1562170824-b547dae88b97?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjEyMDd9');
+}
+
+#hello::after{
+    content: 'This is after content';
+}
+
+#list::marker{
+    color: red;
+
+}
+
+.main-div > h1{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    color: red;
+}
