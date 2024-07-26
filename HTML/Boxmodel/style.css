@@ -1,0 +1,47 @@
+.container{
+    height: 200px;
+    width: auto;
+    background-color: rgb(197, 197, 29);
+    margin: 10px 0px;
+    text-align: center;
+    line-height: 200px;
+}
+button{
+    padding: 10px;
+    /* border: 1.5px solid black;*/
+    /* border-left: 1px solid black; */
+    border: none;
+    border-radius: 10px;
+    /* margin: 0px 10px; */
+}
+
+
+#btn1{
+    margin: 10px;
+    /* background-color:rgb(237, 166, 61); */
+    padding: 10px;
+}
+button:hover{
+    background-color: rgb(60, 72, 72);
+    border: 1px solid #fff;
+    cursor: pointer;
+    color: #fff;
+
+}
+
+
+.img{
+    /* width: 250px; */
+height: 750px;
+background-repeat: no-repeat;
+background-size: cover;
+/* background-position: 10% 50%; */
+background-attachment: fixed;
+
+    background-image: url('https://th.bing.com/th/id/R.c435663021b5f77536c0edacc1693219?rik=rF9sqmaU8khl2A&riu=http%3a%2f%2fimages.unsplash.com%2fphoto-1527555197883-98e27ca0c1ea%3fixlib%3drb-1.2.1%26q%3d80%26fm%3djpg%26crop%3dentropy%26cs%3dtinysrgb%26w%3d1080%26fit%3dmax%26ixid%3deyJhcHBfaWQiOjEyMDd9&ehk=%2fuhBb36KUeF9BWfqjjjKvVBss%2b6RJy2M5X%2bOy9uS1lo%3d&risl=&pid=ImgRaw&r=0');
+}
+h1{
+    text-align: center;
+    color: #fff;
+    line-height: 700px;
+}

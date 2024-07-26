@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+<style>
+    .flex{
+        background-color: aquamarine;
+        height: 50vh;
+        display: flex;
+        /* justify-content: center; */
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .flex div{
+        background-color: #df4949;
+        height: 90px;
+        margin: 5px;
+        width: 90px;
+        line-height: 90px;
+        padding: 3px;
+
+    }
+</style>
+</head>
+<body>
+    <h1>Display Flex</h1>
+    <div class="flex">
+        <div id="flex1">Flex1</div>
+        <div id="flex2">Flex2</div>
+        <div id="flex3">Flex3</div>
+        <div id="flex4">Flex4</div>
+        <div id="flex5">Flex5</div>
+    </div>
+    
+</body>
+</html>

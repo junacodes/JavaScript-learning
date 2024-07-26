@@ -1,0 +1,51 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+nav{
+    background-color: aquamarine;
+    /* width: 100%; */
+    text-align: center;
+    padding:0px 15px;
+    
+   
+}
+#logo, ul, #btn{
+display: inline-block;
+}
+ 
+ul li{
+    display: inline;
+    margin: 0px 10px;
+
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+#logo{
+    float: left;
+    line-height: 48px;
+    color: #fff;
+}
+
+#btn{
+    float: right;
+    line-height: 48px;
+    
+}
+#btn button{
+    background-color: #000;
+    color: #fff; 
+    border: 1px solid #333;
+    border-radius: 200px;
+    /* margin: 10px; */
+}
+
+#btn button:hover{
+    color: beige;
+    cursor: pointer;
+
+}

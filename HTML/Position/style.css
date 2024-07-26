@@ -1,0 +1,43 @@
+#div1 , #div2 , #div3{
+    width: 100px;
+    height: 100px;
+margin: 10px;
+padding: 10px;
+border: 1px solid black;
+text-align: center;
+line-height: 100px;
+}
+
+#elm-position{
+    background-color: rgb(72, 81, 81);
+    height: 200vh;
+    position: relative;
+}
+
+#div1{
+    background-color: aqua;
+color: #fff;
+position: relative;
+left: 200px;
+top: 0px;
+bottom: 0px;
+}
+
+#div2{
+    background-color: green;
+    color: #fff;
+    position: absolute;
+    top:50%;
+    /* right:0px; */
+
+    left: 50%;
+    transform: translate(-50%, -50%) ;
+
+}
+
+#div3{
+    background-color: brown;
+    color: #fff;
+    position: fixed;
+    top: 0px;
+}

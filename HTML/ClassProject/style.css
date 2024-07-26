@@ -99,3 +99,24 @@ p{
     font-family: 'Courier New', Courier, monospace;
     color: red;
 }
+.color_name{
+    color: red;
+}
+
+.color_rgb{
+    color: rgb(255, 0, 0);
+}
+.color_rgba{
+    color: rgba(255, 0, 0, 0.5);
+}
+
+.color_hex{
+    color: #ff0000;
+}
+.color_hsl{
+    color: hsl(0 , 100%, 50%);
+
+}
+.color_hsla{
+    color: hsla(0 , 100%, 50%, 0.5);
+}
