@@ -1,0 +1,19 @@
+div{
+    padding: 10px;
+}
+div button{
+    background-color: brown;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+    box-shadow: 2px 3px 2px rgb(40, 40, 40);
+    font-size: 1.2em;
+
+}
+
+div button:hover{
+    color: #000;
+    cursor: pointer;
+    background-image: red !important;
+}

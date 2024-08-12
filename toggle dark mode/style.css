@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(rgb(77, 8, 133),rgb(60, 6, 105),rgb(77, 8, 133));
+
+}
+html{
+    scroll-behavior: smooth;
+}
+.maindiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(246, 244, 248);
+    box-sizing: border-box;
+    /* margin-bottom: 100px; */
+    /* width: 600px; */
+  
+}
+.maindiv h1{
+    padding: 10px;
+}
+
+.maindiv ul{
+    display: flex;
+   justify-content: space-between;
+  align-items: center;
+/* padding: 10px; */
+}
+
+.maindiv ul li{
+    padding: 30px;
+    list-style: none;
+}
+
+.maindiv ul li a{
+    text-decoration: none;
+    color: #0b0808;
+
+    /* border: 1px solid #333 */
+}
+
+
+.maindiv ul li a:hover{
+    background-color: rgb(80, 80, 122);
+    color: #fff;
+    /* border-radius: 30px; */
+    /* width: 100%; */
+    border: 1px solid #000;
+    box-shadow: #244;
+    transition: 0.5 ease;
+}
+
+.maindiv  ul button{
+    text-align: center;
+    color: rgb(163, 61, 61);
+    border: 2px solid white;
+    margin: 10px;
+    padding: 10px;
+    background: none;
+    font-family: roboto;
+    border-radius: 10px;
+    cursor: pointer;
+    outline: none;
+}
+
+.maindiv ul button:hover{
+    background: rgb(255, 255, 255);
+    color: rgb(77, 8, 133);
+}
+ 
+.sidebar
+{
+    background: rgb(255, 255, 255);
+    text-align: center;
+    height: fit-content;
+    width: 200px;
+    border-radius: 30px;
+    margin: 10px 10px;
+    display: block;
+    border: 2px solid black;
+    padding: 24px;
+    cursor: pointer;
+}
+
+.main-number
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.boxer
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: white;
+    border: 2px solid black;
+    border-radius: 30px;
+    height: 200px;
+    width: fit-content;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    padding: 24px;
+    margin: 10px 50px;
+}
+
+
+.dark
+{
+    filter: invert(1.0) hue-rotate(60deg);
+    background: white;
+}
+
+
+.darkmode
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.boxer:hover
+{
+    background: rgb(235, 3, 111);
+    color: white;
+}
+
+.mainnumber::after
+{
+    content: "";
+    background:white;
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    right: 40px;
+    top: 230px;
+    border-radius: 50%;
+    transform: rotate(120deg);
+    z-index: -1;
+    opacity: 0.4;
+}
+
+.one
+{
+    height: fit-content;
+    width: fit-content;
+}
+
+.sidebar:hover
+{
+    background: rgb(235, 3, 111);
+    color: white;
+}
+
+
+.two
+{
+    width: fit-content;
+    font-family: roboto;
+}
+
+
+.mainnumber::before
+{
+    content: "";
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    left: 40px;
+    bottom: 90px;
+    top: 110px;
+    border-radius: 50%;
+    transform: rotate(120deg);
+    z-index: -1;
+    opacity: 0.4;
+    background:white;
+}
+
+
+
+@media only screen and (max-width:904px)
+{
+    .mainnumber
+    {
+        display: block;
+    }
+
+    .two
+    {
+        text-align: center;
+        align-items: center;
+        display: flex;
+        cursor: pointer;
+        color: rgb(0, 0, 0);
+        padding: 24px;
+        
+    }
+
+    .sidebar
+    {
+        height: fit-content;
+        width: fit-content;
+    }
+
+    ul
+    {
+        margin: 10px;
+        text-align: center;
+        align-items: center;
+        display: flex;
+    }
+}
+
+@media only screen and (max-width:742px)
+{
+    .maindiv
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        width: 700px;
+    }
+
+    .mainnumber
+    {
+        display: block;
+        
+    }
+
+    ul
+    {
+        margin: 10px;
+        text-align: center;
+        align-items: center;
+        display: block;
+    }
+
+}
+
+
+::selection
+{
+    background: white;
+    color: black;
+}

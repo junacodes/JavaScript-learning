@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration form</title>
+    <link rel="stylesheet" href="./style.css">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/remixicon/fonts/remixicon.css" rel="stylesheet"> -->
+   
+</head>
+<body>
+<div class="main">
+    <div class="form">
+    <form action="" id="signUp" >
+        <h1>Sign Up</h1>
+        <div class="form-field">
+            <label for="username">Username:</label>
+            <input type="text" name="Username"   id="username" required>
+            <small class="error-message"></small>
+        </div>
+        <div class="form-field">
+            <label for="email">Email:</label>
+            <input type="email" name="Email"  id="email" required>
+            <small class="error-message"></small>
+        </div>
+        <div class="form-field">
+            <label for="password">Password:</label>
+            <div>
+            <input type="password" name="Password" id="togglePassword" required >
+            <!-- <i class="ri-eye-line" id="togglePassword"></i> -->
+            </div>
+            <small class="error-message"></small>
+        </div>
+        <!-- <div class="form-field" style="display:flex">
+            <label for="confirm-password"> Confirm Password:</label>
+            <input type="password" name="confirm-password "  id="togglePassword" required>
+          
+            <smal class="error-message"></small>
+        </div> -->
+        <div class="submit">
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+    </div>
+</div>
+<script src="./index.js"></script>
+</body>
+</html>
